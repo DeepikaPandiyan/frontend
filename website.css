@@ -1,0 +1,138 @@
+body{
+    background:linear-gradient(to right, rgb(73, 211, 121), pink);
+    font-size: 1.35em;
+    font-family: Langar,cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+    color: aqua;
+    font-family: Oswald,sans-serif;
+}
+.aclass{
+    color: blue;
+    font-family: Lobster,cursive;
+}
+.image {
+    border: 1px solid red;
+}
+.bg-blue{
+    border: 5px solid blue;
+    margin: 10px;
+}
+.picture{
+    border: 5px solid chocolate;
+    height: 250px;/*ignore it*/
+    width: 300px;/*ignore it*/
+}
+.table{
+    background-color: coral;
+    border: 3px solid rebeccapurple;
+    display: inline-block;
+}
+td, th{
+    border-bottom: 2px solid rebeccapurple;
+    border-right: 2px solid rebeccapurple;
+}
+tr:last-child td {
+ border-bottom: none;
+}
+tr td:last-child,
+tr th:last-child {
+    border-right: none;
+}
+.container{
+    margin: 10px;
+    height: 300px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-item{
+    font-size: 25px;
+    background: blueviolet;
+    color: violet;
+    text-align: center;
+
+    width: 50px;
+    line-height: 50px;
+    margin: 10px;
+}
+.itemA{
+    order:3;
+    flex: 1 1 100px;
+    align-self:flex-start ;
+}
+.itemB{
+    order:5;
+    flex: 1 1 100px;
+    align-self:center ;
+}
+.itemC{
+    order:7;
+    flex: 1 1 100px;
+    align-self: center;
+}
+.itemD{
+    order:1;
+    flex: 1 1 100px;
+    align-self: flex-end;
+}
+.itemE{
+    order:8;
+    flex: 1 1 100px;
+    align-self:center ;
+}
+.itemF{
+    order:9;
+    flex: 1 1 100px;
+    align-self: center ;
+}
+.itemG{
+    order:4;
+    flex: 1 1 100px;
+    align-self: flex-start ;
+}
+.itemH{
+    order:2;
+    flex: 1 1 100px;
+    align-self: flex-end ;
+}
+.itemI{
+    order:6;
+    flex: 1 1 100px;
+    align-self: center;
+}
+.grid-container{
+    background-color: lavender;
+    margin: 10px;
+    height:300px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: min-content 50px min-content;
+}
+.grid-item{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+.item1{
+    background: lawngreen;
+}
+.item2{
+    background: lightcoral;
+}
+.item3{
+    background: lightskyblue;
+}
+.item4{
+    background: magenta;
+}
+.item5{
+    background: yellow;
+}
