@@ -1,0 +1,226 @@
+body {
+    font-family: 'Fugaz One', cursive;
+    color: #5f88a3;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    padding: 8px 8px 16px 24px;
+    background: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    cursor: pointer;
+}
+
+.topic {
+    padding-left: 20px;
+}
+
+.banner {
+    display: flex;
+    height: 450px;
+    background-color: #1a5ca3;
+}
+
+.banner-written {
+    flex: 0 0 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.order-image img {
+    height: 120px;
+    width: 400px;
+}
+
+.order-image {
+    padding-bottom: 15px ;
+    cursor: pointer;
+}
+
+.order {
+    cursor: pointer;
+}
+
+.banner-image {
+    flex: 0 0 65%;
+    cursor: pointer;
+}
+
+.banner-image img {
+    height: 450px;
+    width: 100%;
+}
+
+.download-btn {
+    background-color: #F3223B;
+    width: 148px;
+    height: 45px;
+    color: white;
+    border: 1px solid #F3223B;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.orderonline-btn {
+    height: 60px;
+    width: 400;
+    background-color: #1FB31A;
+    border: 1px solid #1FB31A;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.writing {
+    font-size: 21px;
+    font-weight: 500;
+    color: #47a0ff;
+}
+
+.order-msg {
+    color: white;
+} 
+
+.order {
+    margin: 20px 0 10px 0;
+}
+
+.bannerleft {
+    padding-left: 60px;
+}
+
+.co-image {
+    display: flex;
+}
+
+.paytmimage img {
+    height: 240px;
+    width: 530px;
+    padding-right: 20px;
+
+}
+
+.amazonpayimage img {
+    height: 240px;
+    width: 530px;
+}
+
+.co-name {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.content {
+    margin: 50px 100px;
+}
+
+.explore {
+    padding-top: 50px;
+    flex: 0 0 25%;
+}
+
+.exploreimage {
+    display: flex;
+    cursor: pointer;
+}
+
+.search {
+    border: 1px dotted black;
+    margin-right: 10px;
+    text-align: center ;
+    padding: 20px 10px 0;
+    width: 250px;
+}
+
+.booknow {
+    display: flex;
+    justify-content: center;
+    color: #de042e;
+    border-top: 1px dotted #979797;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.imagename {
+    margin: 10px 0;
+}
+
+.discription {
+    margin: 20px 0;
+}
+
+.birthday img {
+    height: 80px;
+}
+
+.chaticon {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+ .chaticon img {
+     height: 60px;
+     width: 60px;
+}
+
+.footer {
+     background-color: #222E3A;
+     color: white;
+     font-weight: 300;
+}
+
+
+.footer-heading {
+    color: #546273;
+}
+
+.footer-link {
+    display: flex;
+    margin: 75px 100px ;
+}
+
+.foot {
+    padding-right: 150px;
+}
+
+.symbols {
+    display: flex;
+}
+
+.icon {
+    color: #BBD1EB;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.social-media {
+    padding-right: 10px;
+}
+
+.footer-bottem {
+    height: 50px;
+    background-color: #1A2735;
+    color: #546273;
+    justify-content: center;
+    border-top: 1px dotted #546273;
+    display: flex;
+    align-items: center;
+} 

@@ -1,0 +1,176 @@
+ body {
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+ 
+.zomato-top img {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(200,200,200);
+}
+
+.zomato-top {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    margin: 50px 200px 70px;
+}
+    
+
+.image img {
+    height: 240px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.topic {
+    position: relative;
+    margin-right: 10px;
+}
+
+.note {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    padding: 10px 0px 15px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 0px 0px 10px 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.collection {
+    margin: 0 200px;
+    position: relative;
+}
+
+.discription {
+    font-size: 20px;
+    display: flex;
+}
+
+.collection-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.explore {
+    flex: 0 0 70%;
+}
+
+.collection-top {
+    margin-bottom: 30px;
+}
+
+.chennai-collections {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 300;
+    color: rgb(245, 112, 130);
+}
+
+.fa-caret-right {
+    padding: 5px 10px;
+}
+
+.collection-bottom {
+    display: flex;  
+}
+
+.christmas-spl {
+    background-image: url(../html/zomatoabsolute1.webp);
+}
+
+.newyear-spl {
+    background-image: url(../html/zomatoabsolute1.webp);
+}
+
+.trending {
+    background-image: url(../html/zomatoabsolute1.webp);
+}
+
+.chennais-finest {
+    background-image: url(../html/zomatoabsolute1.webp);
+}
+
+.know {
+    flex: 0 0 calc(25% - 10px);
+    margin-right: 10px;
+    background-size: cover;
+    height: 275px;
+    position: relative;
+    border-radius: 10px;
+    filter: brightness(0.9);
+}
+
+.name {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.places {
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.fix {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    box-shadow: 5px 0 100px rgba(0,0,0,1);
+}
+
+.chennai-localities {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.city-name {
+    font-weight: 800;
+}
+
+.localities {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 75px 200px;
+}
+
+.location {    
+    display: flex;
+    flex: 0 0 calc(27% - 20px);
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    background: white;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(232, 232, 232);
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+    border-radius: 10px;
+}
